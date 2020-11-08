@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<image class="image" mode="aspectFit" src='/images/Logo.png'></image>
+<text class="text">您的InviteId为:</text>
+<text selectable='true' class="text_inviteId">{{inviteId}}</text>
+
+<view class="layout_horizontal">
+  <button disabled='{{isGetDisabled}}' bindtap="get_jd_game_info" class="mini-btn" type="primary" size="mini">获取InviteId</button>
+  
+  <button disabled='{{isCopyDisabled}}' bindtap="setClipboard" class="mini-btn" type="primary" size="mini">复制InviteId</button>
+</view>
+<view class="mView">
+  <input class="inputView" placeholder="输入对方InviteId" bindinput="inPutFun" />
+</view>
+<view class="mView">
+  <button  bindtap="helpIt" class="mini-btn" type="warn" size="mini">为Ta助力!</button>
+
+</view>

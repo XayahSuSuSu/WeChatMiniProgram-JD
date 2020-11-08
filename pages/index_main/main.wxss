@@ -1,0 +1,51 @@
+/* pages/main.wxss */
+.inputView {
+  /* background-color: #fff;  */
+  line-height: 45px;
+  border-radius: 20px;
+  width: 500rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 2px solid #999999;
+}
+.mView{
+  margin-top: 20rpx;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  font-size: 45rpx;
+  line-height: 50px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.text_inviteId {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.layout_horizontal {
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+}

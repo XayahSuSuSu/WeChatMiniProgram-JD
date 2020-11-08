@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="flex-wrp" style="flex-direction:column;">
+  <image class="image" mode="aspectFit" src='/images/reading.png'></image>
+  <text class="text">欢迎来到AcmeZone!</text>
+  <!-- <a class="weui-btn weui-btn_mini weui-btn_primary">→</a> -->
+  <button style="width:145rpx;" open-type="getUserInfo" bindgetuserinfo="getUserInfo"
+    class="weui-btn weui-btn_mini weui-btn_primary">💛</button>
+</view>

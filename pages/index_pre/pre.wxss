@@ -1,0 +1,33 @@
+/* pages/index_pre/pre.wxss */
+.image {
+  display: flex;
+  margin-top: 100rpx;
+  justify-content: center;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  font-weight:bold;
+  align-items: center;
+  font-size: 45rpx;
+  line-height: 100px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.weui-btn_mini {
+  text-align: center;
+  position:fixed; 
+  bottom:0;
+  left: 0;
+  right: 0;
+  height: 145rpx;
+  line-height: 145rpx;
+  width: 145rpx;
+  border-radius:50%;
+  margin-bottom: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
